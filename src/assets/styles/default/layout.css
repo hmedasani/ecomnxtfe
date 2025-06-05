@@ -1,0 +1,24 @@
+body {
+  @apply flex flex-col min-h-dvh;
+}
+
+#site_header {
+  @apply flex gap-4;
+}
+#main_content_area {
+  @apply flex flex-1 p-4;
+}
+#site_footer {
+  @apply flex items-center justify-center p-4;
+}
+
+#brand {
+  @apply flex p-4 items-center justify-center;
+}
+
+#top_nav {
+  @apply flex flex-1 gap-4  items-center;
+}
+#user_nav {
+  @apply flex gap-4  items-center justify-center p-4;
+}
